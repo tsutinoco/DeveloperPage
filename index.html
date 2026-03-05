@@ -1,28 +1,117 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>Tsutinoko Apps</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tsutinoko Apps</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
 </head>
+
 <body>
-  <h1>Tsutinoko Apps</h1>
 
-  <h2>学習時間ログ – ポモドーロ×勉強記録</h2>
-  <p>
-    ポモドーロ機能付きの学習時間管理アプリです。
-    学習時間の可視化と習慣化をサポートします。
-  </p>
+<header>
+    <h1>Tsutinoko Apps</h1>
+    <p>学習と成長を支えるシンプルなツールを開発しています。</p>
+</header>
 
-  <p>
-    App Store:
-    <a href="https://apps.apple.com/jp/app/id6757257780">
-      アプリを見る
-    </a>
-  </p>
+<div class="container">
 
-  <hr>
+    <div class="card">
+        <h2>学習時間ログ – ポモドーロ×勉強記録</h2>
+        <p>
+        ポモドーロ機能を搭載した学習時間管理アプリ。
+        集中と記録を両立させ、学習習慣をデータで可視化します。
+        </p>
 
-  <p>お問い合わせ: yourmail@example.com</p>
+        <a class="button" href="https://apps.apple.com/jp/app/id6757257780">
+        App Storeで見る
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>開発ポリシー</h2>
+        <p>
+        不要な機能を削ぎ落とし、本質的な体験を重視しています。
+        個人開発ならではのスピードと改善サイクルを大切にしています。
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>サポート</h2>
+        <p>
+        ご意見・不具合報告は下記メールアドレスまでお願いいたします。
+        </p>
+        <p>
+        contact@example.com
+        </p>
+    </div>
+
+</div>
+
+<footer>
+© 2026 Tsutinoko Apps
+</footer>
+
 </body>
 </html>
